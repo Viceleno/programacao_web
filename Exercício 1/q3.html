@@ -3,40 +3,32 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Questão 03</title>
+    <title>Questão 2</title>
   </head>
   <body>
-    <form>
-      <label for="nome">Nome:</label>
-      <input type="text" name="nome" required>
-      <br>
-      <label for="senha">Senha:</label>
-      <input type="password" name="senha" required>
-      <br>
-      <label for="dt_nascimento">Data de Nascimento:</label>
-      <input type="date" name="dt_nascimento" required>
-      <br>
-      <label for="telefone">Telefone:</label>
-      <input type="tel" name="telefone">
-      <br>
-      <label for="email">Email:</label>
-      <input type="email" name="email">
-      <br>
-      <label for="cor">Cor dos Olhos:</label>
-      <input type="color" name="cor">
-      <br>
-      <label for="rg">Nº de Identidade:</label>
-      <input type="number" name="rg">
-      <br>
-      <label for="sexo">Sexo:</label>
-      <input type="radio" name="sexo" value="Homem">
-      <label for="homem">Homem</label>
-      <input type="radio" name="sexo" value="Mulher">
-      <label for="mulher">Mulher</label>
-      <br>
-      <input type="submit" name="enviar" value="Enviar">
-      <input type="reset" name="apagar" value="Apagar">
-      <br>
-    </form>
+    <table border="1px solid #000">
+      <tr>
+        <td>
+          <h1>Entre em contato</h1>
+          <form >
+            <label for="nome">Nome:</label>
+            <input type="text" name="nome" placeholder="Digite seu nome" required/>
+            <br>
+            <br>
+            <label for="email">Email:</label>
+            <input type="email" name="email" placeholder="Digite seu email" required />
+            <br>
+            <br>
+            <label for="tel">Telefone:</label>
+            <input type="tel" name="tel" pattern="\([0-9]{2}\)[0-9]{5}-[0-9]{4}" maxlength="14" placeholder="(XX)XXXXX-XXXX"  required/>
+            <br>
+            <br>
+            <textarea name="caixa-texto" placeholder="Informe aqui maiores informações"></textarea>
+            <br>
+            <input type="submit" value="Enviar">
+          </form>
+        </td>
+      </tr>
+    </table>
   </body>
 </html>
