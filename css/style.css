@@ -1,0 +1,36 @@
+html {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  background-color: black;
+}
+
+body {
+  text-align: center;
+  width: 80%;
+  margin: 0 auto;
+}
+h1,
+h2 {
+  color: greenyellow;
+  border: 3px dotted yellow;
+  margin: 10px 50px 10px 50px;
+}
+
+p,
+a {
+  color: #fff;
+  text-align: justify;
+}
+
+h6 {
+  font-size: 10px;
+  color: red;
+}
+
+.direita{
+  text-align: right;
+}
+
+.esquerda{
+  text-align: left;
+}
